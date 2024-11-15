@@ -1,0 +1,14 @@
+import { memo, SVGProps } from 'react';
+
+const EpArrowRightBoldIcon2 = (props: SVGProps<SVGSVGElement>) => (
+  <svg preserveAspectRatio='none' viewBox='0 0 60 60' fill='none' xmlns='http://www.w3.org/2000/svg' {...props}>
+    <rect width={60} height={60} rx={30} fill='white' />
+    <path
+      d='M25.0282 21.0591C24.7646 21.3228 24.6165 21.6804 24.6165 22.0533C24.6165 22.4262 24.7646 22.7838 25.0282 23.0476L31.9891 30.0085L25.0282 36.9694C24.772 37.2347 24.6303 37.5899 24.6335 37.9586C24.6367 38.3273 24.7846 38.68 25.0453 38.9407C25.3061 39.2015 25.6588 39.3494 26.0275 39.3526C26.3962 39.3558 26.7514 39.214 27.0166 38.9579L34.9718 31.0027C35.2354 30.739 35.3835 30.3814 35.3835 30.0085C35.3835 29.6356 35.2354 29.278 34.9718 29.0143L27.0166 21.0591C26.7529 20.7955 26.3953 20.6474 26.0224 20.6474C25.6495 20.6474 25.2919 20.7955 25.0282 21.0591V21.0591Z'
+      fill='#BD1F17'
+    />
+  </svg>
+);
+
+const Memo = memo(EpArrowRightBoldIcon2);
+export { Memo as EpArrowRightBoldIcon2 };

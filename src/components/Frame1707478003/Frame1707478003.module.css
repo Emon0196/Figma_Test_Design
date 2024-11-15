@@ -1,0 +1,296 @@
+.root {
+  height: min-content;
+  align-self: stretch;
+  flex-direction: column;
+  background-image:/* webpackIgnore: true */ url('assets/frame1707478003.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.frame1707477991 {
+  height: min-content;
+  align-self: stretch;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 120px 300px;
+}
+.frame1707477975 {
+  width: 1320px;
+  height: min-content;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.frame3851 {
+  width: 635px;
+  height: 548px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 60px;
+}
+.frame38512 {
+  height: min-content;
+  align-self: stretch;
+  flex-direction: column;
+  gap: 40px;
+}
+.frame3852 {
+  height: min-content;
+  align-self: stretch;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+}
+.frame1707477976 {
+  height: min-content;
+  align-self: stretch;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 16px;
+}
+.frame1707477986 {
+  height: min-content;
+  align-self: stretch;
+  align-items: center;
+  gap: 10px;
+}
+.rectangle4708 {
+  width: 10px;
+  height: 10px;
+  background-color: #bd1f17;
+}
+.bookNow {
+  color: #bd1f17;
+  font-size: 20px;
+  line-height: 32px;
+  font-weight: bold;
+  font-family: Roboto, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.bookYourTable {
+  color: #fff;
+  font-size: 62px;
+  line-height: 62px;
+  font-weight: bold;
+  font-family: Bebas Neue, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: 654px;
+  height: min-content;
+  flex-direction: column;
+}
+.enimTemporEgetPharetraFacilisi {
+  color: #f7f8f9;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: Roboto, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: 545px;
+  height: min-content;
+  flex-direction: column;
+}
+.frame830 {
+  height: min-content;
+  align-self: stretch;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+}
+.from {
+  height: min-content;
+  align-self: stretch;
+  flex-direction: column;
+  gap: 24px;
+}
+.frame1707477979 {
+  height: min-content;
+  align-self: stretch;
+  align-items: flex-start;
+  gap: 30px;
+}
+.frame17074779792 {
+  height: min-content;
+  flex: 1;
+  flex-direction: column;
+}
+.textField {
+  height: min-content;
+  align-self: stretch;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 16px;
+  outline: solid 1px #e5e7eb;
+  outline-offset: -1px;
+}
+.yourName {
+  color: #fff;
+  font-size: 14px;
+  line-height: 22px;
+  font-family: Roboto, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  z-index: 0;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.frame1707477980 {
+  height: min-content;
+  flex: 1;
+  flex-direction: column;
+}
+.textField2 {
+  height: min-content;
+  align-self: stretch;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 16px;
+  outline: solid 1px #e5e7eb;
+  outline-offset: -1px;
+}
+.yourEmail {
+  color: #fff;
+  font-size: 14px;
+  line-height: 22px;
+  font-family: Roboto, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  z-index: 0;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.frame1707477981 {
+  height: min-content;
+  align-self: stretch;
+  align-items: flex-start;
+  gap: 30px;
+}
+.frame17074779793 {
+  height: 46px;
+  flex: 1;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.textField3 {
+  height: min-content;
+  align-self: stretch;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 16px;
+  outline: solid 1px #e5e7eb;
+  outline-offset: -1px;
+}
+.reservationDate {
+  color: #fff;
+  font-size: 14px;
+  line-height: 22px;
+  font-family: Roboto, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  z-index: 0;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.calenderDate51 {
+  z-index: 0;
+  width: 20px;
+  height: 20px;
+}
+.icon {
+  width: 100%;
+  height: 100%;
+}
+.frame17074779802 {
+  height: 46px;
+  flex: 1;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.textField4 {
+  height: min-content;
+  align-self: stretch;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 16px;
+  outline: solid 1px #e5e7eb;
+  outline-offset: -1px;
+}
+.totalPeople {
+  color: #fff;
+  font-size: 14px;
+  line-height: 22px;
+  font-family: Roboto, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  z-index: 0;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.sort1 {
+  z-index: 0;
+  width: 20px;
+  height: 20px;
+}
+.icon2 {
+  width: 100%;
+  height: 100%;
+}
+.frame17074779803 {
+  height: min-content;
+  align-self: stretch;
+}
+.frame17074779794 {
+  height: min-content;
+  flex: 1;
+  flex-direction: column;
+}
+.textField5 {
+  height: 140px;
+  align-self: stretch;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 12px 16px;
+  outline: solid 1px #e5e7eb;
+  outline-offset: -1px;
+}
+.message {
+  color: #fff;
+  font-size: 14px;
+  line-height: 22px;
+  font-family: Roboto, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  z-index: 0;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.frame1707477987 {
+  width: min-content;
+  height: min-content;
+  padding: 16px 24px;
+  background-color: #febf00;
+}
+.bookNow2 {
+  color: #0a1425;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: bold;
+  font-family: Roboto, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  text-transform: uppercase;
+  width: min-content;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  white-space: nowrap;
+  flex-direction: column;
+}

@@ -1,0 +1,418 @@
+.root {
+  background-color: rgb(248, 242, 229);
+  height: min-content;
+  align-self: stretch;
+  flex-direction: column;
+  justify-content: center;
+  gap: 60px;
+  padding: 120px 300px;
+}
+.about {
+  height: min-content;
+  align-self: stretch;
+  align-items: center;
+}
+.content {
+  height: min-content;
+  flex: 1;
+  flex-direction: column;
+}
+.text {
+  height: min-content;
+  align-self: stretch;
+  flex-direction: column;
+}
+._1 {
+  height: min-content;
+  align-self: stretch;
+  flex-direction: column;
+  gap: 16px;
+}
+.frame1707477986 {
+  height: min-content;
+  align-self: stretch;
+  align-items: center;
+  gap: 10px;
+}
+.rectangle4708 {
+  width: 10px;
+  height: 10px;
+  background-color: #bd1f17;
+}
+.crispyEveryBiteTaste {
+  color: #bd1f17;
+  font-size: 20px;
+  line-height: 32px;
+  font-weight: bold;
+  font-family: Roboto, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.pOPULARFOODITEMS {
+  color: #181818;
+  font-size: 62px;
+  line-height: 62px;
+  font-weight: bold;
+  font-family: Bebas Neue, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  height: min-content;
+  align-self: stretch;
+  flex-direction: column;
+}
+.content2 {
+  width: min-content;
+  height: min-content;
+  align-items: flex-start;
+  gap: 32px;
+}
+.epArrowRightBold {
+  width: 60px;
+  height: 60px;
+  overflow: visible;
+  filter: drop-shadow(0px 0px 13.63636302947998px #0000001a);
+}
+.icon {
+  width: 100%;
+  height: 100%;
+}
+.epArrowRightBold2 {
+  width: 60px;
+  height: 60px;
+  overflow: visible;
+  filter: drop-shadow(0px 0px 13.63636302947998px #0000001a);
+}
+.icon2 {
+  width: 100%;
+  height: 100%;
+}
+.about2 {
+  height: min-content;
+  align-self: stretch;
+  align-items: flex-start;
+  gap: 32px;
+}
+.frame1707477980 {
+  height: min-content;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  padding: 32px;
+  background-color: #fff;
+}
+.frame1707478074 {
+  position: relative;
+  width: 120px;
+  height: 120px;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.group1707477980 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 120px;
+  height: 120px;
+  overflow: visible;
+}
+.icon3 {
+  width: 100%;
+  height: 100%;
+}
+.classicBurgerWithBeefCutletVeg {
+  position: absolute;
+  left: -33px;
+  top: -2px;
+  width: 186px;
+  height: 124px;
+  background-image:/* webpackIgnore: true */ url('assets/classicBurgerWithBeefCutletVeg.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.line173 {
+  width: 57px;
+  max-width: 100%;
+  height: 0;
+  max-height: 100%;
+  outline: solid 2px #bd1f17;
+}
+.autoLayoutVertical {
+  height: min-content;
+  align-self: stretch;
+  flex-direction: column;
+}
+.vegetablesBurger {
+  color: #0a1425;
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: bold;
+  font-family: Bebas Neue, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  height: min-content;
+  align-self: stretch;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+}
+.barbecueItalianCuisinePizza {
+  color: #0a1425;
+  font-size: 16px;
+  line-height: 32px;
+  font-family: Roboto, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: -0.015em;
+  height: min-content;
+  align-self: stretch;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+}
+.frame1707477987 {
+  height: min-content;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  padding: 32px;
+  background-color: #fff;
+}
+.frame17074780742 {
+  position: relative;
+  width: 120px;
+  height: 120px;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.group17074779802 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 120px;
+  height: 120px;
+  overflow: visible;
+}
+.icon4 {
+  width: 100%;
+  height: 100%;
+}
+.pizza1 {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 132px;
+  height: 132px;
+  background-image:/* webpackIgnore: true */ url('assets/pizza1.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transform: translate(-50%, -50%);
+}
+.line1732 {
+  width: 57px;
+  max-width: 100%;
+  height: 0;
+  max-height: 100%;
+  outline: solid 2px #bd1f17;
+}
+.autoLayoutVertical2 {
+  height: min-content;
+  align-self: stretch;
+  flex-direction: column;
+}
+.spacialPizza {
+  color: #0a1425;
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: bold;
+  font-family: Bebas Neue, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  height: min-content;
+  align-self: stretch;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+}
+.barbecueItalianCuisinePizza2 {
+  color: #0a1425;
+  font-size: 16px;
+  line-height: 32px;
+  font-family: Roboto, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: -0.015em;
+  height: min-content;
+  align-self: stretch;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+}
+.frame1707477990 {
+  height: min-content;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  padding: 32px;
+  background-color: #fff;
+}
+.frame17074780743 {
+  position: relative;
+  width: 120px;
+  height: 120px;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.group17074779803 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 120px;
+  height: 120px;
+  overflow: visible;
+}
+.icon5 {
+  width: 100%;
+  height: 100%;
+}
+.pizza12 {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 132px;
+  height: 132px;
+  background-image:/* webpackIgnore: true */ url('assets/pizza12.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transform: translate(-50%, -50%);
+}
+.frenchFries1 {
+  position: absolute;
+  left: calc(50% - -0.5px);
+  top: calc(50% - 0.5px);
+  width: 175px;
+  height: 117px;
+  background-image:/* webpackIgnore: true */ url('assets/frenchFries1.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transform: translate(-50%, -50%);
+}
+.line1733 {
+  width: 57px;
+  max-width: 100%;
+  height: 0;
+  max-height: 100%;
+  outline: solid 2px #bd1f17;
+}
+.autoLayoutVertical3 {
+  height: min-content;
+  align-self: stretch;
+  flex-direction: column;
+}
+.spacialFrenchFries {
+  color: #0a1425;
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: bold;
+  font-family: Bebas Neue, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  height: min-content;
+  align-self: stretch;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+}
+.barbecueItalianCuisine {
+  color: #0a1425;
+  font-size: 16px;
+  line-height: 32px;
+  font-family: Roboto, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: -0.015em;
+  height: min-content;
+  align-self: stretch;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+}
+.frame1707477989 {
+  height: min-content;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  padding: 32px;
+  background-color: #fff;
+}
+.frame17074780744 {
+  position: relative;
+  width: 120px;
+  height: 120px;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.group17074779804 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 120px;
+  height: 120px;
+  overflow: visible;
+}
+.icon6 {
+  width: 100%;
+  height: 100%;
+}
+.friedShrimpPrawnCakeWhitePlate {
+  position: absolute;
+  left: -30px;
+  top: 6px;
+  width: 179px;
+  height: 119px;
+  background-image:/* webpackIgnore: true */ url('assets/friedShrimpPrawnCakeWhitePlate.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.line1734 {
+  width: 57px;
+  max-width: 100%;
+  height: 0;
+  max-height: 100%;
+  outline: solid 2px #bd1f17;
+}
+.autoLayoutVertical4 {
+  height: min-content;
+  align-self: stretch;
+  flex-direction: column;
+}
+.cuisineChicken {
+  color: #0a1425;
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: bold;
+  font-family: Bebas Neue, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  height: min-content;
+  align-self: stretch;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+}
+.japaneseCuisineChicken {
+  color: #0a1425;
+  font-size: 16px;
+  line-height: 32px;
+  font-family: Roboto, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: -0.015em;
+  height: min-content;
+  align-self: stretch;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+}

@@ -1,0 +1,452 @@
+.root {
+  position: relative;
+  width: 1920.0001px;
+  height: min-content;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  background-image: linear-gradient(134.2deg, #bd1f17ff 28%, #a51d13ff 60%, #8e1b0fff 100%);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto;
+  overflow: hidden;
+}
+.rectangle4 {
+  opacity: 0.12;
+  position: absolute;
+  left: 0;
+  top: -319px;
+  width: 1961px;
+  height: 1852px;
+  background-image:/* webpackIgnore: true */ url('assets/rectangle4.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.nav {
+  position: relative;
+  width: 1920px;
+  height: min-content;
+}
+.frame1707477983 {
+  display: flex;
+  justify-content: space-between; /* Ensures button is spaced */
+  align-items: center;
+  width: 100%; /* Ensures it spans the container */
+}
+.frame1707477986 {
+  width: 970px;
+  height: min-content;
+  align-items: center;
+  gap: 60px;
+}
+.logo {
+  width: min-content;
+  height: min-content;
+  align-items: center;
+  gap: 6px;
+}
+.frame {
+  width: 36.9879px;
+  height: 37px;
+}
+.icon {
+  width: 100%;
+  height: 100%;
+}
+.restaurant {
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.labelWrapper {
+  font-size: 28.4444px;
+  font-family: Poppins, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  flex-shrink: 1;
+}
+.label {
+  color: #fff;
+  font-size: 28.4444px;
+  line-height: 28.4444px;
+  font-weight: 600;
+  font-family: Poppins, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+}
+.label2 {
+  color: #fff;
+  font-size: 28.4444px;
+  line-height: 28.4444px;
+  font-family: Poppins, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+}
+.frame1 {
+  width: min-content;
+  height: min-content;
+  align-items: center;
+  gap: 40px;
+}
+.navLinks {
+  display: flex;
+  gap: 40px;
+  align-items: flex-start;
+  width: min-content;
+  height: min-content;
+  transition: all 0.3s ease;
+}
+
+.navLinks div {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 500;
+  font-family: Raleway, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+
+.navLinks div:hover {
+  color: white; /* Ensure hover color remains white */
+}
+
+/* Ensure that any specific class for links (like 'navLink') doesn't override the color */
+.navLinks .navLink {
+  color: white; /* Specifically targeting nav links */
+}
+
+.hamburger {
+  display: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: #fff; /* Ensure hamburger icon color is white */
+}
+
+@media (max-width: 768px) {
+  .hamburger {
+    display: block;
+  }
+
+  .navLinks {
+    display: none;
+    flex-direction: column;
+    gap: 20px;
+    position: absolute;
+    top: 60px;
+    right: 10px;
+    background-color: white(165, 150, 150, 0.8);
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px white(126, 121, 121, 0.2);
+  }
+
+  .navLinks.show {
+    display: flex;
+  }
+
+  /* Ensure the nav links are white on mobile too */
+  .navLinks div {
+    color: #fff;
+  }
+
+  /* Ensure that specific nav link classes on mobile don't override the color */
+  .navLinks .navLink {
+    color: #fff;
+  }
+}
+
+.button {
+  position: relative;
+  left: -300px; /* Move the button 20px to the left */
+  padding: 10px 24px;
+  background-color: #febf00;
+  border: none;
+  cursor: pointer;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.bookATable {
+  color: #0a1425;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: bold;
+  font-family: Roboto, sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.imageContainer {
+  position: absolute;
+  right: 0;
+  top: 40%;
+  transform: translateY(-50%);
+  width: 60%; /* Adjust width as needed */
+  height: auto;
+}
+
+.rightImage {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.frame2080 {
+  position: relative;
+  height: 1050px;
+  align-self: stretch;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 130px 300px 160px 233px;
+}
+.group1707477989 {
+  position: relative;
+  width: 1373.5px;
+  height: 649.0001px;
+}
+.image1 {
+  transform-origin: top left;
+  position: absolute;
+  left: 96.2505%;
+  right: -47.2151%;
+  top: 0;
+  bottom: 0%;
+  width: 699.9999px;
+  height: 649.0001px;
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+.offer {
+  position: absolute;
+  left: 91.2632%;
+  right: 0;
+  top: 81.2789%;
+  bottom: 0.2311%;
+  width: 120px;
+  height: 120px;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 6.0377px;
+  border-radius: 75.4717px;
+  background-color: #febf00;
+  overflow: hidden;
+  box-shadow: 0px 8px 9px 0px #00000040;
+}
+.frame1707478070 {
+  position: absolute;
+  left: calc(50% - -0.3774px);
+  top: calc(50% - 0.3773px);
+  width: 105.6604px;
+  height: 105.6604px;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 6.0377px;
+  outline: dashed 1.25px #bd1f17;
+  outline-offset: -1px;
+  border-radius: 75.4717px;
+  overflow: hidden;
+  transform: translate(-50%, -50%);
+}
+.todayOffer {
+  position: absolute;
+  left: calc(50% - 0.3771px);
+  top: calc(50% - -2.8773px);
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+  transform: translate(-50%, -50%);
+}
+.textBlock {
+  color: #0a1425;
+  font-size: 36px;
+  line-height: 40px;
+  font-weight: bold;
+  font-family: Bebas Neue, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+}
+.textBlock2 {
+  margin-top: 0;
+  color: #0a1425;
+  font-size: 36px;
+  line-height: 40px;
+  font-weight: bold;
+  font-family: Bebas Neue, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+}
+.offer2 {
+  opacity: 0.1;
+  position: absolute;
+  left: 91.2632%;
+  right: 0;
+  top: 81.2789%;
+  bottom: 0.2311%;
+  width: 120px;
+  height: 120px;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 6.0377px;
+  border-radius: 75.4717px;
+  background-color: #fff;
+  overflow: hidden;
+  box-shadow: 0px 8px 9px 0px #00000040;
+}
+.frame17074780702 {
+  position: absolute;
+  left: calc(50% - -0.3774px);
+  top: calc(50% - 0.3773px);
+  width: 105.6604px;
+  height: 105.6604px;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 6.0377px;
+  outline: dashed 1.25px #bd1f17;
+  outline-offset: -1px;
+  border-radius: 75.4717px;
+  overflow: hidden;
+  transform: translate(-50%, -50%);
+}
+.todayOffer2 {
+  position: absolute;
+  left: calc(50% - 0.3771px);
+  top: calc(50% - -2.8773px);
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+  transform: translate(-50%, -50%);
+}
+.textBlock3 {
+  color: #0a1425;
+  font-size: 36px;
+  line-height: 36px;
+  font-weight: bold;
+  font-family: Bebas Neue, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+}
+.textBlock4 {
+  margin-top: 0;
+  color: #0a1425;
+  font-size: 36px;
+  line-height: 36px;
+  font-weight: bold;
+  font-family: Bebas Neue, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+}
+.frame1707477987 {
+  position: absolute;
+  left: 0;
+  right: 31.1249%;
+  top: 16.0247%;
+  bottom: 15.2542%;
+  width: min-content;
+  height: min-content;
+  align-self: flex-start;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 38px;
+}
+.frame1707477990 {
+  width: min-content;
+  height: min-content;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+}
+.group1707477986 {
+  position: relative;
+  width: 946px;
+  height: 272px;
+}
+.rectangle4711 {
+  position: absolute;
+  left: 0;
+  right: 12.2622%;
+  top: 0;
+  bottom: 0;
+  width: 830px;
+  height: 220px;
+  background-image: linear-gradient(90deg, #bd1f1700 33%, rgb(143, 17, 10) 100%);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+.tasteTheAuthenticSaudiCuisine {
+  position: absolute;
+  left: 0.1%;
+  right: 0;
+  top: 7.3529%;
+  bottom: 0;
+  width: 945px;
+  height: 252px;
+  flex-direction: column;
+}
+.textBlock5 {
+  color: #fff;
+  font-size: 80px;
+  line-height: 80px;
+  transform: scaleX(0.8); 
+  display: inline-block; 
+  font-weight: bold;
+  font-family: Bebas Neue, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+}
+.textBlock6 {
+  margin-top: 0;
+  color: #fff;
+  font-size: 80px;
+  line-height: 80px;
+  transform: scaleX(0.8); 
+  display: inline-block; 
+  font-weight: bold;
+  font-family: Bebas Neue, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+}
+.amongTheBestSaudiChefsInTheWor {
+  color: #fff;
+  font-size: 24px;
+  line-height: 32px;
+  font-family: Roboto, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: 559px;
+  height: min-content;
+  flex-direction: column;
+}
+.frame17074779872 {
+  width: min-content;
+  height: min-content;
+  padding: 16px 24px;
+  background-color: #febf00;
+}
+.exploreMenu {
+  color: #0a1425;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: bold;
+  font-family: Roboto, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  text-transform: uppercase;
+  width: min-content;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.vector {
+  position: absolute;
+  left: 1605px;
+  top: 249px;
+  width: 45px;
+  height: 45px;
+  overflow: visible;
+}
+.icon2 {
+  width: 100%;
+  height: 100%;
+}
